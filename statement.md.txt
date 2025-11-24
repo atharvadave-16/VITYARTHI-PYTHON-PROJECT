@@ -1,0 +1,66 @@
+Project Statement – Monthly Loan EMI Calculator
+
+📌 Problem Statement
+
+Many individuals struggle to understand how their monthly loan payments (EMI) are calculated. Manual calculations are time-consuming and prone to errors, especially when dealing with interest rates and long loan tenures.
+This project aims to solve this problem by providing a simple Python program that calculates EMI accurately using the standard financial formula.
+
+ Scope of the Project
+
+The project focuses on calculating the monthly EMI for any given loan.
+
+It accepts user inputs such as:
+
+Principal loan amount
+
+Annual interest rate
+
+Loan tenure (in years)
+
+
+Uses the EMI formula and returns the monthly repayment amount.
+
+The program runs on any system that supports Python 3.
+
+Does not include:
+
+GUI interface
+
+Database storage
+
+Loan amortization schedule (can be added in future versions)
+
+
+
+
+
+
+🎯 Target Users
+
+Students learning Python basics
+
+Individuals wanting to calculate their loan EMI
+
+Beginners exploring financial calculations
+
+Developers looking for a simple EMI function to integrate into bigger applications
+
+Finance learners who want to understand EMI computation logic
+
+
+
+
+
+✨ High-Level Features
+
+Accept user inputs directly through terminal/console
+
+Calculate EMI using the standard mathematical formula
+
+Display output in a clear and readable format
+
+Error-free and stable for all valid numeric inputs
+
+Lightweight, no external libraries required
+
+Easily extendable (e.g., adding GUI, charts, amortization table)
