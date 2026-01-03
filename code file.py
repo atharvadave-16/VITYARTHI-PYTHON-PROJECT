@@ -39,3 +39,11 @@ while True:
 print("\nAll loans:")
 for loan in loans:
     print(f"{loan['name']}: EMI={loan['emi']:.2f}")
+
+x = input("do you want to know the total interest amount you will be paying? (y/n): ")
+if x == 'y':
+    print((emi*12*b)-p,"is the total interest amount you will be paying")
+else:print("\nAll loans:")
+for loan in loans:
+    print(f"{loan['name']}: EMI={loan['emi']:.2f}")
+
