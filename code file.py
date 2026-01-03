@@ -40,10 +40,11 @@ print("\nAll loans:")
 for loan in loans:
     print(f"{loan['name']}: EMI={loan['emi']:.2f}")
 
-x = input("do you want to know the total interest amount you will be paying? (y/n): ")
+x = input("do you want to know the total emi amount you will be paying annualy? (y/n): ")
 if x == 'y':
-    print((emi*12*b)-p,"is the total interest amount you will be paying")
+    print((emi*12),"is the total emi amount you will be paying annualy")
 else:print("\nAll loans:")
 for loan in loans:
     print(f"{loan['name']}: EMI={loan['emi']:.2f}")
+
 
