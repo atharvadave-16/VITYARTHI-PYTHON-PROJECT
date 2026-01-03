@@ -31,19 +31,16 @@ while True:
         loans.append(loan_info)
 
         print(f"{name} EMI: {emi:.2f}")
+        x = input("do you want to know the total emi amount you will be paying annualy? (y/n): ")
+        if x == 'y':
+          print((emi*12),"is the total emi amount you will be paying annualy")
+        else:  print(f"{name} EMI: {emi:.2f}")
 
     more = input("Add another loan? (y/n): ").lower().strip()
     if more != 'y':
         break
 
 print("\nAll loans:")
-for loan in loans:
-    print(f"{loan['name']}: EMI={loan['emi']:.2f}")
-
-x = input("do you want to know the total emi amount you will be paying annualy? (y/n): ")
-if x == 'y':
-    print((emi*12),"is the total emi amount you will be paying annualy")
-else:print("\nAll loans:")
 for loan in loans:
     print(f"{loan['name']}: EMI={loan['emi']:.2f}")
 
